@@ -1,0 +1,56 @@
+[
+    {
+      "id": "welcome",
+      "title": "Welcome to HLT",
+      "type": "hero",
+      "content": {
+        "heading": "Higher Learning Technologies",
+        "subheading": "Transforming Healthcare Education with AI",
+        "logo": "HLT"
+      }
+    },
+    {
+      "id": "ai-revolution",
+      "title": "AI Revolution",
+      "type": "stats",
+      "content": [
+        { "title": "AI-generated questions", "value": 600000, "icon": "❓" },
+        { "title": "Unique study plans", "value": 250000, "icon": "📚" },
+        { "title": "Content creation speed", "value": 85, "icon": "⚡", "suffix": "%" },
+        { "title": "AI-powered interactions", "value": 1000000, "icon": "🤖", "suffix": "/month" }
+      ]
+    },
+    {
+      "id": "financial-growth",
+      "title": "Financial Growth",
+      "type": "chart",
+      "content": {
+        "chartType": "bar",
+        "data": [
+          { "year": "2023", "revenue": 6.4, "ebitda": -0.6 },
+          { "year": "2024", "revenue": 6.6, "ebitda": 0.35 },
+          { "year": "2025", "revenue": 8.1, "ebitda": 1.06 }
+        ],
+        "keys": ["revenue", "ebitda"],
+        "colors": ["#8884d8", "#82ca9d"]
+      }
+    },
+    {
+      "id": "user-engagement",
+      "title": "User Engagement",
+      "type": "chart",
+      "content": {
+        "chartType": "line",
+        "data": [
+          { "week": "Sep 11", "users": 118147, "sessions": 335418 },
+          { "week": "Jul 24", "users": 100498, "sessions": 306605 },
+          { "week": "Apr 22", "users": 95231, "sessions": 288374 },
+          { "week": "Jan 29", "users": 86791, "sessions": 274023 },
+          { "week": "Oct 30", "users": 85065, "sessions": 237403 },
+          { "week": "Jul 15", "users": 64762, "sessions": 180006 }
+        ],
+        "keys": ["users", "sessions"],
+        "colors": ["#8884d8", "#82ca9d"]
+      }
+    }
+  ]
